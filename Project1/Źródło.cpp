@@ -5,4 +5,6 @@ int main() {
 	cout << "podaj 2 liczby\n";
 	int a, b;
 	cin >> a >> b;
+	int suma = a + b;
+	cout << a << " + " << b << " = " << suma << "\n";
 }
